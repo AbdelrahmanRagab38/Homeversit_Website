@@ -1,47 +1,35 @@
-body{
-    font-family: "Baloo 2", sans-serif !important;
-    background-color: #080084 !important;
-  }
-  .nav{
-    margin-top: 1vw;
-    color: White;
-    font-size: 20px;
-  }
-  .home{
-    color: #3100ff;
-    font-size: 30px ;
-  }
-  #brand2{
-    color: #fff;
-    font-size: 30px;
-  }
-  .single-item{
-      border-radius: 35px !important;
-      background-color: #4D40FF !important;
-      color: #fff !important;
-      box-shadow: 0px 0px 15px 0px #1100FF;
-      border: none;
-      border-radius: 35px;
-      
-      
-  }
-  .store-img {
-    transition: all 1s ease-in-out;
-  }
-  .img-container img{
-    object-fit: cover;
-    margin: 0px;
-  }
-  .img-container {
-    border: 1px solid #fff;
-    border-radius: 35px;
-    position: relative;
-    cursor: pointer;
-    overflow: hidden;
-    height: 100%;
-    width: 30%;
-    margin: 0px !important;
-  }
-  
+body {
+  font-family: "Baloo 2", sans-serif !important;
+  background-color: #080084 !important;
+}
+.nav {
+  margin-top: 1vw;
+  color: White;
+  font-size: 20px;
+}
+.home {
+  color: #3100ff;
+  font-size: 30px;
+}
+#brand2 {
+  color: #fff;
+  font-size: 30px;
+}
+.single-item {
+  border-radius: 35px !important;
+  background-color: #4d40ff !important;
+  color: #fff !important;
+  box-shadow: 0px 0px 15px 0px #1100ff;
+  border: none;
+  border-radius: 35px;
+}
 
-  /* End enrolled page */
+.img-container {
+  border: 1px solid #fff;
+  border-radius: 35px;
+  cursor: pointer;
+  overflow: hidden;
+  object-fit: contain;
+}
+
+/* End enrolled page */
