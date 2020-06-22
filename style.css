@@ -1,48 +1,63 @@
 body{
-  background-image: url(bck.png);
-    background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  
+  background: linear-gradient(105deg, #030047 50%,#080084 25%);
   width: 98vw;
+  font-family: "Baloo 2", sans-serif;
 }
 .nav{
   margin-top: 1vw;
   color: White;
   font-size: 20px;
 }
-.get{
-  color: white;
-  font-size: 25px;
-  margin-top: 140px;
+.home{
+  color: #3100ff;
+  font-size: 30px ;
 }
-.logg{
-  width: 26vw;
-  margin-left: 10vw;
+#brand2{
+  color: #fff;
+  font-size: 30px;
+}
+.logg2{
+  width: 100%;
+  
+}
+@media(max-width:1000px){
+  .logo{
+    width: 100%;
+    margin-left: 8vh !important;
+  }
+  .logg2{
+    width: 100%;
+    margin: 5px auto;
+  }
+  
+}
+.logg1{
+  display: none;
+  margin: 0 0 20px 0;
+  width: 60%;
+  text-align: center;
+
+  
+}
+.logo{
+  margin-left: 20vh;
 }
 .hom{
   color: #1100ff;
   font-style: normal;
 }
-.friend{
-  font-style: normal;
-  padding-bottom: 10px;
-  border-bottom: 3px solid #3100ff;
-}
-.you{
-  margin-top: -5vw;
-  color: #8880ff;
-  font-size: 25px;
-}
 .login{
-  margin-top: -20px;
-  padding: 5px;
   color: white;
   font-size: 20px;
   background: #4d40ff;
   text-align: center;
+  padding: 10px;
   border-radius: .6vw;
-  box-shadow: 0 0 10px blue;
+  box-shadow: 0 0 15px #4d40ff;
   max-height: 50px;
+  max-width: 200px;
+  
 }
 .down{
   color: white;
@@ -53,6 +68,7 @@ body{
   border-radius: .6vw;
   box-shadow: 0 0 15px #4d40ff;
   max-height: 50px;
+  max-width: 200px;
 }
 .sign{
   margin-top: 30px;
@@ -64,6 +80,8 @@ body{
   border-radius: .6vw;
   box-shadow: 0 0 10px blue;
   max-height: 50px;
+  max-width: 200px;
+  text-align: center;
 }
 section{
   margin-top: 4vw;
@@ -74,4 +92,77 @@ section{
 .link:hover{
   color: white;
   text-decoration: none;
+}
+.header .centering{
+  margin-top: 25vh;
+}
+@media (max-width:767px){
+  .header .centering{
+      margin-top: 70px;
+}
+  }
+.p1{
+  color: #fff;
+  font-size: 30px !important;
+} 
+@media (max-width:767px){
+  .p1{
+       margin-bottom: 40px auto;
+       text-align: center;
+  }
+  .down{
+  margin: 40px auto;
+  }
+  .logg2{
+    display: none;
+  }
+  .logo{
+    margin-left: 0px !important;
+  }
+  .logg1{
+    display: block;
+
+  }
+ 
+} 
+.hr{
+  width: 230px;
+  height: 1.5px;
+  background-color: #0d00c0;
+  margin: 20px 0px;
+}
+@media (max-width:767px){
+  .hr{
+      margin: 20px auto;
+  }
+ 
+}
+.p2{
+  color: #8880FF;
+  font-size: 27px;
+  margin-bottom: 40px;
+  margin-top: 15px;
+  font-weight: normal;
+  
+}
+@media (max-width:767px){
+  .p2{
+       margin-bottom: 40px auto;
+       text-align: center;
+  }
+ 
+}
+
+.header button{
+  letter-spacing: 1.5px;
+  border-radius: 0px;
+  
+}
+@media (max-width:767px){
+   .header button{
+     margin: 20px auto;
+     display: block;
+     
+  }
+ 
 }
