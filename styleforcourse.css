@@ -19,6 +19,7 @@ body{
       border-radius: 35px !important;
       background-color: #4D40FF !important;
       color: #fff !important;
+      
   }
   .store-img {
     transition: all 1s ease-in-out;
@@ -69,7 +70,7 @@ body{
     color: white;
   }
   .single-item {
-    box-shadow: 0px 0px 10px 0px #cbdeff;
+    box-shadow: 0px 0px 15px 0px #1100FF;
     border: none;
     border-radius: 35px;
   }
@@ -152,6 +153,7 @@ body{
       width:70px;
       height: 70px;
       margin-left: -20px;
+      border: 1px solid #fff;
   }
   .con1{
     margin-left: -20px;
