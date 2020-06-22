@@ -53,7 +53,7 @@ body{
     top: 40px;
   }
   .single-item:hover .card-body {
-    height: 300px;
+    height: 320px;
     transition: 1s ease;
   }
   .con a {
@@ -93,9 +93,7 @@ body{
     top: 80px;
     transition: 1s ease-in-out;
   }
-  .single-item:hover .likes {
-    top: 20px;
-  }
+  
   
   .search i {
     position: absolute;
@@ -107,19 +105,19 @@ body{
   }
   
   .icon {
-    margin-top: 20px;
-    padding: 15px 10px;
+    margin-top: -7px;
+    padding: 15px 15px;
     min-width: 40px;
     color: #8ab6ff;
   }
   
   .search-input {
-    box-shadow: 0px 6px 6px 0px #dae8ff;
-    margin-top: 20px;
+    margin-top: -6px;
     width: 100%;
     padding: 10px 40px;
     border-radius: 10px;
     border: none;
+    color: #fff;
   }
   .search-input ::placeholder {
     color: #8ab6ff;
@@ -172,4 +170,18 @@ body{
     
 
 }
+.con2{
+    transition: all 1.2s ease-in-out;
+    margin-top: 100px;
+}
+.single-item:hover .con2 {
+    margin-top: 0px;
+  }
+  .enroll button{
+      background-color: #FFD217;
+      color: #080084;
+      font-weight: bold;
+      border-radius: 10px;
+     
+  }
   /* End search page */
