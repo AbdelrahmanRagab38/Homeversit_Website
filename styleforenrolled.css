@@ -25,9 +25,6 @@ body{
       
       
   }
-  .store-img {
-    transition: all 1s ease-in-out;
-  }
   .img-container img{
     object-fit: cover;
     margin: 0px;
