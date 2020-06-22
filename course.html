@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styleforcourse.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="styleSearch.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -33,37 +32,39 @@
     </nav>
     <!-- end navbar -->
     <!-- start search boxes -->
-    <div class="container" style="margin-top: 20vh;">
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="input-group md-form form-sm form-1 pl-0">
-                <div class="input-group-prepend">
+    <div class="ser mx-auto">
+        <div class="container" style="margin-top: 20vh;">
+            <div class="row justify-content-center">
+              <div class="col-sm-5">
+                <div class="input-group md-form form-sm form-1 pl-0">
+                    <div class="input-group-prepend">
+                    </div>
+                    <!-- <input class="form-control " type="text" placeholder="&nbsp;Search" aria-label="Search" style="background-color: #030047;color: #5043ff;" style="border-radius: 20px;"> -->
+                    <div class="search my-0 py-1">
+                        <i class="fa fa-search icon"></i>
+                        <input class="search-input" type="text" placeholder="Search" name="search" required="required" style="background-color: #030047;">
+                      </div>
+                  </div>
                 </div>
-                <!-- <input class="form-control " type="text" placeholder="&nbsp;Search" aria-label="Search" style="background-color: #030047;color: #5043ff;" style="border-radius: 20px;"> -->
-                <div class="search my-0 py-1">
-                    <i class="fa fa-search icon"></i>
-                    <input class="search-input" type="text" placeholder="Search" name="search" required="required" style="background-color: #030047;">
+              <div class="col-sm-4"> 
+                <select style="background-color: #030047; color: #8e86ff; border: none;border-radius: 10px;" class="selectLevels form-control">
+                    <optgroup>
+                      <option>&nbsp;All Levels</option>
+                      <option>&nbsp;Level 1</option>
+                      <option>&nbsp;Level 2</option>
+                      <option>&nbsp;Level 3</option>
+                      <option>&nbsp;Level 4</option>
+                    </optgroup>
+                  </select>
+            </div>
+              <div class="col-sm-2"> 
+                <div class="checkbox" style="margin-top: 7px;">
+                    <h5 style="color: #958dff;  margin-left: 20px;">Enrolled &nbsp;&nbsp;<input type="checkbox" value=""></h5>
                   </div>
               </div>
             </div>
-          <div class="col-sm-4"> 
-            <select style="background-color: #030047; color: #8e86ff; border: none;border-radius: 10px;" class="selectLevels form-control">
-                <optgroup>
-                  <option>&nbsp;All Levels</option>
-                  <option>&nbsp;Level 1</option>
-                  <option>&nbsp;Level 2</option>
-                  <option>&nbsp;Level 3</option>
-                  <option>&nbsp;Level 4</option>
-                </optgroup>
-              </select>
-        </div>
-          <div class="col-sm-3"> 
-            <div class="checkbox" style="margin-top: 7px;">
-                <h5 style="color: #958dff;  margin-left: 20px;">Enrolled &nbsp;&nbsp;<input type="checkbox" value=""></h5>
-              </div>
           </div>
-        </div>
-      </div>
+    </div>
       <br><br>
 
     <!-- end search boxes -->
