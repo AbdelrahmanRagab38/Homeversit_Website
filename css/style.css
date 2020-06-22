@@ -1,0 +1,300 @@
+body{
+  overflow-x: hidden;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+nav{
+  background-color: rgb(64, 100, 121);
+}
+nav a{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar-nav{
+  text-align: center;
+}
+.active{
+  border-bottom: white solid 2px;
+}
+/*----------------------- header sec------------------------------*/
+.header{
+  background-image: linear-gradient(to bottom, rgb(64, 100, 121) , rgb(64, 100, 121) 70%, white 30%);
+}
+.header .c2{
+  padding-top: 150px;  
+}
+.header img{
+  width: 100%;
+  height: 100%;
+}
+.text-part{
+  background-color: white;
+  margin-left: -15px;
+  box-shadow: 2px 2px 10px 1px rgb(238, 237, 238);
+}
+.text-part p,.text-part h1{
+  margin-left: 50px;
+}
+.text-part h1{
+  margin-top: 60px;
+  color: rgb(64, 100, 121);
+}
+.text-part p{
+  color: rgb(118, 134, 139);
+}
+.social-part .col-1{
+  text-align: center;
+  padding-right: 28px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px 1px rgb(238, 237, 238);
+  margin-bottom: 20px;
+}
+.social-part .col-1:hover{
+  background-color: rgb(64, 100, 121);
+}
+.social-part .col-1 .fa-facebook-f ,.social-part .col-1 .fa-twitter,.social-part .col-1 .fa-linkedin,.social-part .col-1 .fa-github{
+  color: rgb(64, 100, 121);
+}
+.social-part .col-1:hover .fa-facebook-f,.social-part .col-1:hover .fa-twitter,.social-part .col-1:hover .fa-linkedin,.social-part .col-1:hover .fa-github{
+  color: white;
+}
+.up-btn{
+  margin-top: -100px;
+  border-radius: 20%;
+  background-color: rgb(64, 100, 121);
+  text-align: center;
+  color: white;
+}
+/*---------------------------------------- about me*/
+.about{
+  margin-top: 80px;
+}
+.about .head-part{
+  text-align: center;
+  color: rgb(64, 100, 121);
+}
+.about .content-part{
+  text-align: center;
+  color: rgb(118, 134, 139);
+}
+.about .btn{
+  height: 40px;
+  width: 250px;
+  color: white;
+  background-color: rgb(64, 100, 121);
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  
+}
+.about .btn:hover{
+  background-color: black;
+}
+/*--------------------------------------------------skills part*/
+.skill{
+  margin-bottom: 80px;
+}
+.skills-part{
+  margin-top: 50px;
+}
+.skills-part .col-7{
+  margin-bottom: 20px;
+}
+.skill .head-part{
+  margin-top: 30px;
+  text-align: center;
+  color: rgb(64, 100, 121);
+}
+#html{
+  width:400px;
+  height: 20px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px 1px rgb(211, 211, 211);
+  border-radius: 20px;
+}
+.skill label{
+  color: rgb(64, 100, 121)
+}
+#Html-per{
+  height: 20px;
+  background-color: rgb(59, 107, 134);
+  border-radius: 20px;
+}
+[data-aos="disapp"]{
+  opacity: 0;
+
+}
+[data-aos="disapp"].aos-animate{
+  opacity: 1; 
+}
+[data-aos="load"]{
+  opacity: 0;
+  width: 0px;
+  transition: 1s;
+}
+[data-aos="load"].aos-animate{
+  opacity: 1;
+  width: 360px; 
+  transition: 3s; 
+}
+[data-aos="js-load"]{
+  opacity: 0;
+  width: 0px;
+  transition: 1s;
+}
+[data-aos="js-load"].aos-animate{
+  opacity: 1;
+  width: 340px; 
+  transition: 3s; 
+}
+[data-aos="jq-load"]{
+  opacity: 0;
+  width: 0px;
+  transition: 1s;
+}
+[data-aos="jq-load"].aos-animate{
+  opacity: 1;
+  width: 320px; 
+  transition: 3s; 
+}
+[data-aos="p-load"]{
+  opacity: 0;
+  width: 0px;
+  transition: 1s;
+}
+[data-aos="p-load"].aos-animate{
+  opacity: 1;
+  width: 280px; 
+  transition: 3s; 
+}
+[data-aos="py-load"]{
+  opacity: 0;
+  width: 0px;
+  transition: 1s;
+}
+[data-aos="py-load"].aos-animate{
+  opacity: 1;
+  width: 240px; 
+  transition: 3s; 
+}
+/*-------------------------------portflio*/
+.portfolio{
+  padding-bottom: 60px;
+  background-color: rgb(64, 100, 121);
+}
+.portfolio .head-part{
+  position: relative;
+  padding-top: 60px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: white;
+}
+.portfolio .back{
+  border-radius: 20px;
+}
+.portfolio .xo{
+  margin-bottom: 50px;
+}
+.portfolio .xo-image{
+  height: 100%;
+  width: 92%;
+  border-radius: 20px;
+  position: absolute;
+  margin-bottom: 50px;
+}
+.portfolio .hov{
+  background-color: white;
+  border-radius: 20px;
+  height: 100%;
+  width: 100%;
+  color: rgb(64, 100, 121);
+  opacity: 0;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.hov h4{
+  padding-top: 80px;
+}
+.hov a{
+  color: rgb(64, 100, 121);
+}
+.portfolio .xo:hover {
+  transition: 1s;
+}
+.portfolio .xo:hover .hov{
+  opacity: 1;
+  transition: 1s;
+}
+.portfolio .xo:hover .xo-image{
+  display: none;
+}
+/**/
+.filter a {
+	padding: 10px 20px;
+	display: inline-block;
+	color: #003;
+	background: #eee;
+	text-decoration: none;
+	transition: all 0.2s;
+	border-radius: 9px
+  }
+  
+  .filter a:hover { background: #8ad }
+  
+  .filter {
+	padding: 50px;
+	text-align: center
+  }
+  
+  .gallery a img {
+	width: 100%;
+	height: 300px;
+	float: left;
+  }
+  
+  .gallery a {
+	width: 33.33%;
+	transition: all 0.2s;
+	display: block;
+	float: left;
+	opacity: 1;
+	height: auto;
+  }
+  
+  .gallery .hide, .gallery .pophide {
+	width: 0%;
+	opacity: 0;
+	transition: all 0.1s;
+  }
+  
+  
+  .pop:hover:after { opacity: 1 }
+  .testhov{
+      display: none;
+      width: 300px;
+      height: 300px;
+    }
+    #test{
+      position: absolute;
+    }
+  .al:hover .testhov{
+    display: block;
+  }
+  .al:hover #test{
+    display: none;
+  }
+
+/*-------------------------------certification----------------------*/
+.CERTIFICATION{
+  margin-top: 40px;
+}
+.CERTIFICATION .head-part{
+  color: rgb(64, 100, 121);
+}
+/*-----------------------footer-----------------------------*/
+.footer{
+  background-color: rgb(67, 76, 82);
+}
+.social-footer{
+  padding-top: 30px;
+  text-align: center;
+}

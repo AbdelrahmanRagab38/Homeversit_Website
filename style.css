@@ -1,0 +1,77 @@
+body{
+  background-image: url(bck.png);
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 98vw;
+}
+.nav{
+  margin-top: 1vw;
+  color: White;
+  font-size: 20px;
+}
+.get{
+  color: white;
+  font-size: 25px;
+  margin-top: 140px;
+}
+.logg{
+  width: 26vw;
+  margin-left: 10vw;
+}
+.hom{
+  color: #1100ff;
+  font-style: normal;
+}
+.friend{
+  font-style: normal;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #3100ff;
+}
+.you{
+  margin-top: -5vw;
+  color: #8880ff;
+  font-size: 25px;
+}
+.login{
+  margin-top: -20px;
+  padding: 5px;
+  color: white;
+  font-size: 20px;
+  background: #4d40ff;
+  text-align: center;
+  border-radius: .6vw;
+  box-shadow: 0 0 10px blue;
+  max-height: 50px;
+}
+.down{
+  color: white;
+  font-size: 20px;
+  background: #4d40ff;
+  text-align: center;
+  padding: 10px;
+  border-radius: .6vw;
+  box-shadow: 0 0 15px #4d40ff;
+  max-height: 50px;
+}
+.sign{
+  margin-top: 30px;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  background: #030047;
+  text-align: center;
+  border-radius: .6vw;
+  box-shadow: 0 0 10px blue;
+  max-height: 50px;
+}
+section{
+  margin-top: 4vw;
+}
+.link{
+  color: white;
+}
+.link:hover{
+  color: white;
+  text-decoration: none;
+}
