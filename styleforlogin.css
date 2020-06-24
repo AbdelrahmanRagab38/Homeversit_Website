@@ -15,12 +15,21 @@ body {
   color: #fff;
   font-size: 30px;
 }
-.container {
-  margin-top: 35vh;
+.login-container,
+.signup-container {
+  position: absolute !important;
   background-color: #4d40ff;
   padding: 30px;
   border-radius: 30px;
   box-shadow: 0px 0px 15px 0px #1100ff;
+  transition: transform 2s;
+  transform-style: preserve-3d;
+}
+.login-container {
+  top: 30vh;
+}
+.signup-container {
+  top: 20vh;
 }
 .img-container {
   width: 100px;
@@ -32,6 +41,7 @@ body {
 .image img {
   width: 100px;
   height: 100px;
+  object-fit: cover;
 }
 input {
   background-color: #030047;
@@ -41,7 +51,7 @@ input {
   padding-left: 15px;
   height: 35px;
   margin-bottom: 15px !important;
-  width: 65%;
+  width: 100%;
   color: #ffd217;
 }
 .login {
@@ -53,6 +63,11 @@ input {
   border-radius: 10px !important;
 }
 
+.login:hover {
+  color: #ffd217 !important;
+  background-color: #030047 !important;
+}
+
 .signup {
   color: #030047 !important;
   background: none;
@@ -60,4 +75,41 @@ input {
   border: 2px solid #030047 !important;
   width: 100px;
   border-radius: 10px !important;
+}
+
+.signup:hover {
+  color: white !important;
+  background-color: #030047;
+  border: 2px solid #ffd217 !important;
+}
+
+.container {
+  justify-content: center;
+}
+
+.card {
+  transition: transform 600ms;
+  height: 100%;
+  width: 100%;
+  transform-style: preserve-3d;
+  background-color: transparent !important;
+  border: none !important ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.front,
+.back {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  backface-visibility: hidden;
+}
+
+.back {
+  transform: rotateY(180deg);
 }
