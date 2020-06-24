@@ -66,10 +66,6 @@ body {
 .container:hover .social-links i:hover {
   color: #ffd217;
 }
-.title h5 {
-  font-size: 18px !important;
-  font-weight: 500;
-}
 .email {
   color: #c4bfff;
 }
@@ -92,4 +88,11 @@ body {
 .contact-us:hover {
   color: #ffd217 !important;
   background-color: #030047 !important;
+}
+.title h5 {
+  font-size: 16px !important;
+  font-weight: 300;
+}
+.name h4 {
+  font-weight: 600;
 }
