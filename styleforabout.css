@@ -1,0 +1,95 @@
+body {
+  font-family: "Baloo 2", sans-serif !important;
+  background-color: #080084 !important;
+}
+.nav {
+  margin-top: 1vw;
+  color: White;
+  font-size: 20px;
+}
+.home {
+  color: #3100ff;
+  font-size: 30px;
+}
+#brand2 {
+  color: #fff;
+  font-size: 30px;
+}
+.header {
+  overflow: hidden;
+  text-align: center;
+}
+.logo {
+  object-fit: cover;
+  max-width: 200px !important;
+}
+.logo-container {
+  margin-top: 10vh;
+}
+.container {
+  background-color: #4d40ff;
+  color: white;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px 0px #1100ff;
+  height: 90%;
+}
+.container:hover {
+  background-color: #080084;
+}
+.img-container {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 5px;
+  border: 4px solid white;
+}
+.image img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.social-links i {
+  height: 35px;
+  color: #080084;
+  margin: auto 16px;
+}
+.social-links i:hover {
+  color: #ffd217;
+}
+.container:hover .social-links i {
+  color: white;
+}
+.container:hover .social-links i:hover {
+  color: #ffd217;
+}
+.title h5 {
+  font-size: 18px !important;
+  font-weight: 500;
+}
+.email {
+  color: #c4bfff;
+}
+.description {
+  min-height: 40%;
+}
+.col-lg-3 {
+  max-width: 350px !important;
+  min-height: 500px !important;
+}
+
+.contact-us {
+  color: #030047 !important;
+  background-color: #ffd217 !important;
+  font-weight: bold !important;
+  min-width: 150px;
+  margin-bottom: 30px;
+  border-radius: 10px !important;
+}
+.contact-us:hover {
+  color: #ffd217 !important;
+  background-color: #030047 !important;
+}
