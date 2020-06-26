@@ -1,0 +1,156 @@
+body {
+    font-family: "Baloo 2", sans-serif !important;
+    background-color: #080084 !important;
+  }
+  .nav {
+    margin-top: 1vw;
+    color: White;
+    font-size: 20px;
+  }
+  .home {
+    color: #3100ff;
+    font-size: 30px;
+  }
+  #brand2 {
+    color: #fff;
+    font-size: 30px;
+  }
+  .container {
+    margin-top: 20vh;
+  }
+ul,li{
+    margin: 0;
+    padding: 0;
+    
+}
+li{
+    list-style: none;
+}
+.user-wrapper,.message-wrapper{
+    overflow-y: auto;
+}
+.chat-group{
+    margin: 7px auto;
+    text-align: center;
+    color: #C4BFFF;
+    
+}
+.chat-group h4{
+    font-weight: bold;
+}
+.user-wrapper{
+    
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-left: 15px;
+    margin-right: 0;
+    color: #fff;
+    background-color: #4D40FF;
+    height: 620px;
+}
+.message-wrapper{
+    margin-right: 15px;
+    margin-left: 0;
+    background-color: #fff;
+    padding: 10px;
+    border-top-right-radius: 15px;
+    height: 560px;
+}
+.user{
+    cursor: pointer;
+    margin: 15px 15px;
+    border-radius: 15px;
+    padding: 5px 10px;
+    position: relative;
+    background-color: #080084;
+
+}
+.user:last-child{
+    margin-bottom: 0;
+}
+.media-left{
+    margin: 0 10px;
+}
+.media-left img{
+    width: 64px;
+    border-radius: 64px;
+}
+.media-body p{
+    margin: 6px 0;
+
+}
+.messages .message{
+    margin-bottom: 10px;
+
+}
+.messages .message:last-child{
+    margin-bottom: 0;
+}
+.received ,.sent{
+    width: 45%;
+    padding: 6px 10px;
+    
+
+}
+.received{
+    background-color: #4D40FF;
+    color: #fff;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+.sent{
+    background-color: #030047;
+    color: #fff;
+    float: right;
+    text-align: left;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.message p{
+    margin: 6px 0;
+}
+.date{
+    color: rgb(196, 196, 196);
+    font-size: 12px;
+}
+
+.input-text{
+    background-color: #fff;
+    padding: 10px;
+    margin-right: 15px;
+    margin-left: 0;
+}
+input[type=text]{
+    width: 100%;
+    padding: 7px 20px;
+    margin: 0 0 0 0;
+    outline: none;
+    border: 1px solid #4D40FF;
+    border-radius: 20px;
+    display: inline-block;
+    box-sizing: border-box;
+
+}
+.slect{
+    display: none;
+    width: 525px;
+    margin-bottom: 5px;
+    
+}
+.slect .groups{
+    border-radius: 50px !important;
+}
+@media (max-width: 780px){
+    .user-wrapper{
+        display: none;
+    }
+    .slect{
+        display: block;
+    }
+
+}
+
+
