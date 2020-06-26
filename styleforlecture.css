@@ -1,0 +1,27 @@
+body {
+  font-family: "Baloo 2", sans-serif !important;
+  background-color: #080084 !important;
+}
+.nav {
+  margin-top: 1vw;
+  color: White;
+  font-size: 20px;
+}
+.home {
+  color: #3100ff;
+  font-size: 30px;
+}
+#brand2 {
+  color: #fff;
+  font-size: 30px;
+}
+.container {
+  margin-top: 15vh;
+}
+
+.video-container {
+  overflow: hidden;
+  border-radius: 30px;
+  border: 1px solid white;
+  box-shadow: 0px 0px 15px 0px #1100ff;
+}
