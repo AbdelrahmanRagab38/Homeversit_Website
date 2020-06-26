@@ -25,3 +25,18 @@ body {
   border: 1px solid white;
   box-shadow: 0px 0px 15px 0px #1100ff;
 }
+.title{
+  margin-top: 10px;
+  padding: 5px 20px;
+}
+.title h5{
+  color: #fff;
+}
+.title button{
+  background-color: #fff;
+  color: #1100ff;
+  border-radius: 10px !important;
+}
+.change-video{
+  margin-top: 20px;
+}
