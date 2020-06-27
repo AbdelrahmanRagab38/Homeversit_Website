@@ -1,0 +1,38 @@
+body {
+  font-family: "Baloo 2", sans-serif !important;
+  background-color: #080084 !important;
+}
+.nav {
+  margin-top: 1vw;
+  color: White;
+  font-size: 20px;
+}
+.home {
+  color: #3100ff;
+  font-size: 30px;
+}
+#brand2 {
+  color: #fff;
+  font-size: 30px;
+}
+.container {
+  margin-top: 10vh;
+  max-height: 20% !important;
+}
+.profile-cover {
+  min-height: 180px;
+  border-radius: 20px;
+  background-image: url("images/amongTrees.png");
+  background-position: center;
+  border: 3px solid white;
+}
+.profile-image {
+  background-image: url("images/salahTaha.jpg");
+  min-height: 120px;
+  width: 120px;
+  border: 3px solid white;
+  margin: 0px auto;
+  margin-top: -70px;
+  border-radius: 60px;
+  background-size: cover;
+}
