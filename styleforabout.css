@@ -96,3 +96,33 @@ body {
 .name h4 {
   font-weight: 600;
 }
+modal-content ::-webkit-input-placeholder {
+  color: #bdd5ff;
+}
+.modal-body {
+  border: none;
+}
+.modal-content .modal-body .form-group .email {
+  font-weight: bold;
+  color: #bdd5ff;
+  opacity: 1;
+}
+
+.c1 {
+  color: #8ab6ff;
+}
+.send {
+  background-color: #f7faff;
+  border-radius: 15px;
+  color: #8ab6ff;
+  padding: 7px;
+  width: 80px;
+  border-color: #8ab6ff;
+  border-style: solid;
+  transition: 0.5s ease;
+}
+.send:hover {
+  background-color: #8ab6ff;
+  color: #fff;
+}
+
